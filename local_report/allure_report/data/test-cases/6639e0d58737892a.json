@@ -1,0 +1,222 @@
+{
+  "uid" : "6639e0d58737892a",
+  "name" : "10002---普通用户使用验证码登录",
+  "fullName" : "testCases.user.test_case.Test_cases#test_cases",
+  "historyId" : "d786bb0ed82ee62c2db444710f9c2cc6",
+  "time" : {
+    "start" : 1685002769696,
+    "stop" : 1685002772155,
+    "duration" : 2459
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "mobile",
+    "time" : {
+      "start" : 1685002756037,
+      "stop" : 1685002756037,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "password",
+    "time" : {
+      "start" : 1685002756038,
+      "stop" : 1685002756038,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "message",
+    "time" : {
+      "start" : 1685002756038,
+      "stop" : 1685002756038,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "userReady",
+    "time" : {
+      "start" : 1685002756038,
+      "stop" : 1685002758876,
+      "duration" : 2838
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "'验证码登录'",
+      "time" : {
+        "start" : 1685002769696,
+        "stop" : 1685002771549,
+        "duration" : 1853
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "step",
+        "value" : "'验证码登录'"
+      }, {
+        "name" : "substep",
+        "value" : "[{'order': '验证码登录', 'function': 'use_element', 'data': {'element': '验证码登录', 'page': 'user', 'action': 'click'}}, {'order': '手机号', 'function': 'use_element', 'data': {'element': '验证码登录输入手机号', 'page': 'user', 'action': 'send_keys', 'text': '$mobile'}}, {'order': '获取验证码', 'function': 'use_element', 'data': {'element': '获取验证码', 'page': 'user', 'action': 'click'}}, {'order': '输入验证码', 'function': 'use_element', 'data': {'element': '验证码', 'page': 'user', 'action': 'send_keys', 'text': '$message'}}, {'order': '登录', 'function': 'use_element', 'data': {'element': '登录', 'page': 'user', 'action': 'click'}}, {'order': '判断是否登录成功', 'function': 'check_text', 'data': {'text': '登录成功，进入控制台...'}}, {'order': \"等待'登录成功，进入控制台...'消失\", 'function': 'check_text_disappear', 'data': {'text': '登录成功，进入控制台...'}}]"
+      }, {
+        "name" : "mobile",
+        "value" : "'18965125035'"
+      }, {
+        "name" : "password",
+        "value" : "'qa123456!'"
+      }, {
+        "name" : "message",
+        "value" : "'666888'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "'退出登录'",
+      "time" : {
+        "start" : 1685002771549,
+        "stop" : 1685002772155,
+        "duration" : 606
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "step",
+        "value" : "'退出登录'"
+      }, {
+        "name" : "substep",
+        "value" : "[{'order': '点击昵称', 'function': 'use_element', 'data': {'element': '昵称', 'page': 'navmenu', 'action': 'click'}}, {'order': '点击退出登录', 'function': 'use_element', 'data': {'element': '退出登录', 'page': 'navmenu', 'action': 'click'}}]"
+      }, {
+        "name" : "mobile",
+        "value" : "'18965125035'"
+      }, {
+        "name" : "password",
+        "value" : "'qa123456!'"
+      }, {
+        "name" : "message",
+        "value" : "'666888'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "fd5c1ee57f37a3fe",
+      "name" : "log",
+      "source" : "fd5c1ee57f37a3fe.txt",
+      "type" : "text/plain",
+      "size" : 2350
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "userReady::0",
+    "time" : {
+      "start" : 1685002774202,
+      "stop" : 1685002774202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "普通用户"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases.user"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_cases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8FN55E9"
+  }, {
+    "name" : "thread",
+    "value" : "26712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.user.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_id",
+    "value" : "'10002'"
+  }, {
+    "name" : "info",
+    "value" : "[{'step': '验证码登录', 'substep': [{'order': '验证码登录', 'function': 'use_element', 'data': {'element': '验证码登录', 'page': 'user', 'action': 'click'}}, {'order': '手机号', 'function': 'use_element', 'data': {'element': '验证码登录输入手机号', 'page': 'user', 'action': 'send_keys', 'text': '$mobile'}}, {'order': '获取验证码', 'function': 'use_element', 'data': {'element': '获取验证码', 'page': 'user', 'action': 'click'}}, {'order': '输入验证码', 'function': 'use_element', 'data': {'element': '验证码', 'page': 'user', 'action': 'send_keys', 'text': '$message'}}, {'order': '登录', 'function': 'use_element', 'data': {'element': '登录', 'page': 'user', 'action': 'click'}}, {'order': '判断是否登录成功', 'function': 'check_text', 'data': {'text': '登录成功，进入控制台...'}}, {'order': \"等待'登录成功，进入控制台...'消失\", 'function': 'check_text_disappear', 'data': {'text': '登录成功，进入控制台...'}}]}, {'step': '退出登录', 'substep': [{'order': '点击昵称', 'function': 'use_element', 'data': {'element': '昵称', 'page': 'navmenu', 'action': 'click'}}, {'order': '点击退出登录', 'function': 'use_element', 'data': {'element': '退出登录', 'page': 'navmenu', 'action': 'click'}}]}]"
+  }, {
+    "name" : "story",
+    "value" : "'普通用户'"
+  }, {
+    "name" : "title",
+    "value" : "'普通用户使用验证码登录'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6639e0d58737892a.json",
+  "parameterValues" : [ "'10002'", "[{'step': '验证码登录', 'substep': [{'order': '验证码登录', 'function': 'use_element', 'data': {'element': '验证码登录', 'page': 'user', 'action': 'click'}}, {'order': '手机号', 'function': 'use_element', 'data': {'element': '验证码登录输入手机号', 'page': 'user', 'action': 'send_keys', 'text': '$mobile'}}, {'order': '获取验证码', 'function': 'use_element', 'data': {'element': '获取验证码', 'page': 'user', 'action': 'click'}}, {'order': '输入验证码', 'function': 'use_element', 'data': {'element': '验证码', 'page': 'user', 'action': 'send_keys', 'text': '$message'}}, {'order': '登录', 'function': 'use_element', 'data': {'element': '登录', 'page': 'user', 'action': 'click'}}, {'order': '判断是否登录成功', 'function': 'check_text', 'data': {'text': '登录成功，进入控制台...'}}, {'order': \"等待'登录成功，进入控制台...'消失\", 'function': 'check_text_disappear', 'data': {'text': '登录成功，进入控制台...'}}]}, {'step': '退出登录', 'substep': [{'order': '点击昵称', 'function': 'use_element', 'data': {'element': '昵称', 'page': 'navmenu', 'action': 'click'}}, {'order': '点击退出登录', 'function': 'use_element', 'data': {'element': '退出登录', 'page': 'navmenu', 'action': 'click'}}]}]", "'普通用户'", "'普通用户使用验证码登录'" ]
+}

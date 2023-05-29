@@ -1,0 +1,21 @@
+[ {
+  "uid" : "6639e0d58737892a",
+  "name" : "10002---普通用户使用验证码登录",
+  "time" : {
+    "start" : 1685002769696,
+    "stop" : 1685002772155,
+    "duration" : 2459
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42b120bdc8bb68d2",
+  "name" : "10001---普通用户使用密码登录",
+  "time" : {
+    "start" : 1685002760912,
+    "stop" : 1685002763554,
+    "duration" : 2642
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

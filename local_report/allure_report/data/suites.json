@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testCases.user",
+    "children" : [ {
+      "name" : "test_case",
+      "children" : [ {
+        "name" : "Test_cases",
+        "children" : [ {
+          "name" : "10001---普通用户使用密码登录",
+          "uid" : "42b120bdc8bb68d2",
+          "parentUid" : "dfcfa0fe00b29be464af812db75b2a0f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1685002760912,
+            "stop" : 1685002763554,
+            "duration" : 2642
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'10001'", "[{'step': '密码登录', 'substep': [{'order': '输入手机号', 'function': 'use_element', 'data': {'element': '手机号', 'page': 'user', 'action': 'send_keys', 'text': '$mobile'}}, {'order': '输入密码', 'function': 'use_element', 'data': {'element': '密码', 'page': 'user', 'action': 'send_keys', 'text': '$password'}}, {'order': '登录', 'function': 'use_element', 'data': {'element': '登录', 'page': 'user', 'action': 'click'}}, {'order': '判断是否登录成功', 'function': 'check_text', 'data': {'text': '登录成功，进入控制台...'}}, {'order': \"等待'登录成功，进入控制台...'消失\", 'function': 'check_text_disappear', 'data': {'text': '登录成功，进入控制台...'}}]}, {'step': '退出登录', 'substep': [{'order': '点击昵称', 'function': 'use_element', 'data': {'element': '昵称', 'page': 'navmenu', 'action': 'click'}}, {'order': '点击退出登录', 'function': 'use_element', 'data': {'element': '退出登录', 'page': 'navmenu', 'action': 'click'}}]}]", "'普通用户'", "'普通用户使用密码登录'" ]
+        }, {
+          "name" : "10002---普通用户使用验证码登录",
+          "uid" : "6639e0d58737892a",
+          "parentUid" : "dfcfa0fe00b29be464af812db75b2a0f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1685002769696,
+            "stop" : 1685002772155,
+            "duration" : 2459
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'10002'", "[{'step': '验证码登录', 'substep': [{'order': '验证码登录', 'function': 'use_element', 'data': {'element': '验证码登录', 'page': 'user', 'action': 'click'}}, {'order': '手机号', 'function': 'use_element', 'data': {'element': '验证码登录输入手机号', 'page': 'user', 'action': 'send_keys', 'text': '$mobile'}}, {'order': '获取验证码', 'function': 'use_element', 'data': {'element': '获取验证码', 'page': 'user', 'action': 'click'}}, {'order': '输入验证码', 'function': 'use_element', 'data': {'element': '验证码', 'page': 'user', 'action': 'send_keys', 'text': '$message'}}, {'order': '登录', 'function': 'use_element', 'data': {'element': '登录', 'page': 'user', 'action': 'click'}}, {'order': '判断是否登录成功', 'function': 'check_text', 'data': {'text': '登录成功，进入控制台...'}}, {'order': \"等待'登录成功，进入控制台...'消失\", 'function': 'check_text_disappear', 'data': {'text': '登录成功，进入控制台...'}}]}, {'step': '退出登录', 'substep': [{'order': '点击昵称', 'function': 'use_element', 'data': {'element': '昵称', 'page': 'navmenu', 'action': 'click'}}, {'order': '点击退出登录', 'function': 'use_element', 'data': {'element': '退出登录', 'page': 'navmenu', 'action': 'click'}}]}]", "'普通用户'", "'普通用户使用验证码登录'" ]
+        } ],
+        "uid" : "dfcfa0fe00b29be464af812db75b2a0f"
+      } ],
+      "uid" : "05936c1d5823779c76ae90fedb46f0d0"
+    } ],
+    "uid" : "3d60859b0087a537ed73f1781ee0b4ef"
+  } ]
+}

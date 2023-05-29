@@ -1,0 +1,2 @@
+'昵称': ['xpath','//*[@id="container"]/div/div/div[2]/div[1]/div']
+'退出登录': ['xpath','/html/body/div[3]/div/div/div/div/div[4]/span']

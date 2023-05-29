@@ -1,0 +1,7 @@
+'手机号': [{'xpath': '//*[@id="container"]/div/div[2]/div[2]/div/div/div/div[1]/form/div[1]/div/div/span/div/div[1]/input'},{'xpath': '//body/div[@id="container"]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/span[1]/div[1]/div[1]/input[1]'}]
+'验证码登录输入手机号': [{'xpath':'//*[@id="container"]/div/div[2]/div[2]/div/div/div/div[1]/form/div[1]/div/div/span/div/div[1]/input'}]
+'密码': ['xpath', '//*[@id="container"]/div/div[2]/div[2]/div/div/div/div[1]/form/div[2]/div/div/span/div/div[1]/input']
+'验证码登录': ['xpath','//*[@id="container"]/div/div[2]/div[2]/div/div/div/p/span[2]']
+'获取验证码': ['xpath','//*[@id="container"]/div/div[2]/div[2]/div/div/div/div[1]/form/div[2]/div/div/span/div/div[2]/div/button']
+'验证码': ['xpath','//*[@id="container"]/div/div[2]/div[2]/div/div/div/div[1]/form/div[2]/div/div/span/div/div[1]/input']
+'登录': ['xpath', '//*[@id="container"]/div/div[2]/div[2]/div/div/div/button']

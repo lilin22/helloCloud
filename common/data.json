@@ -1,0 +1,34 @@
+{
+    "story":"普通用户",
+    "title":"普通用户使用密码登录",
+    "caseType":"冒烟测试",
+    "caseLevel":"高",
+    "status":"启用",
+    "info":[
+        {
+            "step":"普通用户登录",
+            "substep":[
+                {
+                    "order":"输入手机号",
+                    "data":{
+                        "function":"use_element",
+                        "element":"手机号",
+                        "page":"user",
+                        "action":"send_keys",
+                        "text":""
+                    }
+                },
+                {
+                    "order":"输入密码",
+                    "data":{
+                        "function":"use_element",
+                        "element":"密码",
+                        "page":"user",
+                        "action":"send_keys",
+                        "text":""
+                    }
+                }
+            ]
+        }
+    ]
+}

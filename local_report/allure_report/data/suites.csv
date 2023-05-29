@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 25 16:19:20 CST 2023","Thu May 25 16:19:23 CST 2023","2642","testCases.user","test_case","Test_cases","","","10001---普通用户使用密码登录",""
+"passed","Thu May 25 16:19:29 CST 2023","Thu May 25 16:19:32 CST 2023","2459","testCases.user","test_case","Test_cases","","","10002---普通用户使用验证码登录",""

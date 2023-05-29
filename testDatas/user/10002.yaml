@@ -1,0 +1,63 @@
+# 用户管理
+story: 普通用户
+title: 普通用户使用验证码登录
+caseType: 冒烟测试
+caseLevel: 高
+status: 启用
+info:
+-    step: 验证码登录
+     substep:
+        - order: 验证码登录
+          function: use_element
+          data:
+               element: 验证码登录
+               page: user
+               action: click
+        - order: 手机号
+          function: use_element
+          data:
+               element: 验证码登录输入手机号
+               page: user
+               action: send_keys
+               text: $mobile
+        - order: 获取验证码
+          function: use_element
+          data:
+               element: 获取验证码
+               page: user
+               action: click
+        - order: 输入验证码
+          function: use_element
+          data:
+               element: 验证码
+               page: user
+               action: send_keys
+               text: $message
+        - order: 登录
+          function: use_element
+          data:
+               element: 登录
+               page: user
+               action: click
+        - order: 判断是否登录成功
+          function: check_text
+          data:
+            text: 登录成功，进入控制台...
+        - order: 等待'登录成功，进入控制台...'消失
+          function: check_text_disappear
+          data:
+            text: 登录成功，进入控制台...
+-    step: 退出登录
+     substep:
+        - order: 点击昵称
+          function: use_element
+          data:
+            element: 昵称
+            page: navmenu
+            action: click
+        - order: 点击退出登录
+          function: use_element
+          data:
+            element: 退出登录
+            page: navmenu
+            action: click
